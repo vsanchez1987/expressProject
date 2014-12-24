@@ -11,8 +11,9 @@ photos.push({
 });
 
 exports.list = function(req, res){
-	res.render('photos', {
-		title: 'Photos',
-		photos: photos
-	});
+	// res.render('photos/index.ejs', {
+	// 	title: 'Photos',
+	// 	photos: photos
+	// });
+	return photos;
 };
