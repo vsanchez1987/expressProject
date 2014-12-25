@@ -4,7 +4,7 @@ var List = require('./photos.js');
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.render('photos', {title: 'Hello World', photos: photos.list() });
+  res.render('photos', {title: 'Hello World', photos: List.list() });
 
 });
 
